@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="625.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wzq.client.view.RootLayoutController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <right>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="textIP" layoutX="11.0" layoutY="548.0" prefHeight="23.0" prefWidth="110.0" promptText="input ip" />
+            <Button fx:id="challange" layoutX="134.0" layoutY="548.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="56.0" text="挑战" />
+            <Button fx:id="login" layoutX="134.0" layoutY="508.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="57.0" text="上线" />
+            <Label fx:id="remoteIP" layoutX="8.0" layoutY="384.0" prefHeight="39.0" prefWidth="183.0" />
+            <Label fx:id="localIP" layoutX="8.0" layoutY="438.0" prefHeight="39.0" prefWidth="183.0" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
