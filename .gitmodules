@@ -1,0 +1,3 @@
+[submodule "WZQServer"]
+	path = WZQServer
+	url = https://github.com/nobystander/WZQServer
